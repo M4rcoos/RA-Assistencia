@@ -1,0 +1,57 @@
+.content{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--gray-300);
+    
+    
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+    text-decoration: none;
+    list-style: none;
+    color: var(--gray-600);
+    font-family: 'Roboto', sans-serif;
+
+}
+.h2{
+text-align: center;
+margin-top: 2rem;
+padding: 1rem 1rem;
+margin-bottom: 1rem;
+font-family: 'Roboto', sans-serif;
+
+}
+
+ul li img{
+    display: flex;
+    height: 6.875rem;
+    width: 6.875rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-top: auto;
+    line-height: 150%;
+
+}
+ul li p{
+    margin-bottom: 1rem;
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 6.875rem;
+    text-align: center;
+
+}
+ul li img:hover{
+    transform: translateY(-8px);
+    transition: 0.25s ease-out;
+}
