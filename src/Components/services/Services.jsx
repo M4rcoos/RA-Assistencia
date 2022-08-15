@@ -3,7 +3,7 @@ import stylesServices from './Services.module.css'
 export  function Services() {
   return (
       <div className={ stylesServices.container } >
-        <h2 className={ stylesServices.h2 }>Serviços</h2>
+        <h2 className={ stylesServices.h2 }id='services'>Serviços</h2>
     <div className={ stylesServices.content }>
     <ul>
   <li><p>Maquina de lavar roupas</p><img src='src\assets\Maquina-de-lavar.png'alt='Imagem de uma maquina de lavar roupas'/></li>

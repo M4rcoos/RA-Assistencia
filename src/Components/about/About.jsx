@@ -3,7 +3,7 @@ import styleAbout from './About.module.css'
 export function About() {
   return (
     <div className={styleAbout.container}>
-        <h1 className={styleAbout.h1}>Sobre</h1>
+        <h1 className={styleAbout.h1} id='about'>Sobre</h1>
       <div className={styleAbout.containerText}>
         <p>
           {" "}
