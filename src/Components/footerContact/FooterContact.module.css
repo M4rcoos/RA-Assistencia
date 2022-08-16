@@ -1,0 +1,30 @@
+.Content{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    
+}
+        
+.Icon {
+    margin-top: 0.313;
+    text-align: center;
+    width: 1.563rem;
+
+}
+.p{
+    display: flex;
+    align-items: center;
+    gap:0.75rem;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+}
+.plink{
+    text-decoration: none;
+    color:white;
+    line-height: 150%;
+
+}
+.title{
+    margin-bottom: 1.5rem;
+}

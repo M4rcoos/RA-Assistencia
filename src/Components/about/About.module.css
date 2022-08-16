@@ -8,9 +8,9 @@
     background-color:transparent;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 3.125rem;
    width: 90%;
-    border-bottom: 2px solid var(--gray-300);
+    border-bottom: 0.125rem solid var(--gray-300);
 
 }
 .h1{
@@ -18,7 +18,7 @@ text-align: center;
 margin-top: 2rem;
 padding: 1rem 1rem;
 margin-bottom: 1rem;
-border-bottom: 2px solid var(--gray-300);
+border-bottom: 0.125rem solid var(--gray-300);
 width: 90%;
 font-family: 'Roboto', sans-serif;
 

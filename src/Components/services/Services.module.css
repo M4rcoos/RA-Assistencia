@@ -3,7 +3,7 @@
     justify-content: center;
     width: 90%;
     margin: 0 auto;
-    border-bottom: 2px solid var(--gray-300);
+    border-bottom: 0.125rem solid var(--gray-300);
     
     
 
@@ -32,7 +32,7 @@ ul li img{
     display: flex;
     height: 6.875rem;
     width: 6.875rem;
-    border-radius: 6px;
+    border-radius: 0.375rem;
     margin-top: 1rem;
     cursor: pointer;
     margin-top: auto;
@@ -52,6 +52,6 @@ ul li{
 
 }
 ul li img:hover{
-    transform: translateY(-8px);
+    transform: translateY(-0.5rem);
     transition: 0.25s ease-out;
 }

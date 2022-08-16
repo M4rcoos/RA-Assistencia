@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    gap:0.5rem;
+    
+}
+a{
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+}
+.title{
+    margin-bottom: 1.5rem;
+}
