@@ -20,11 +20,9 @@ ul img {
 ul{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap:wrap ;
 }
 ul .h2{
-  
     align-items: center;
     color: red;
     font-family: 'Roboto', sans-serif;

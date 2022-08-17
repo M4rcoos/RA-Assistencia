@@ -4,13 +4,18 @@ import { FooterContact } from '../footerContact/FooterContact'
 import { Map } from '../map/Map'
 import { NavegationFooter } from '../navegationFooter/NavegationFooter'
 import { BiCopyright } from "react-icons/bi"
+import { SocialMedia } from '../socialMedia/SocialMedia'
 
 export  function Footer() {
   return (
     <>
     <div className={styleFooter.container}>
         <div className={styleFooter.content}>
-        <img className={styleFooter.img} src={logoAssitencia}alt='Logotipo da assistencia'/>
+          <div>
+          <img  className={styleFooter.img} src={logoAssitencia}alt='Logotipo da assistencia'/>
+          <SocialMedia/>
+          </div>
+       
         <NavegationFooter/>
         <FooterContact/>
         <Map/>

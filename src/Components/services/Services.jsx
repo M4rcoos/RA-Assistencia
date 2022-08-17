@@ -5,7 +5,7 @@ export  function Services() {
       <div className={ stylesServices.container } >
         <h2 className={ stylesServices.h2 }id='services'>Serviços</h2>
     <div className={ stylesServices.content }>
-    <ul>
+    <ul className={stylesServices.ulServices}>
   <li><p>Aspirador de pó </p><img src='src\assets\Aspirador.png'alt='Imagem de um aspirador'/></li>
   <li><p>Ferro de passar</p> <img src='src\assets\ferro-de-passar.png'alt='Imagem de um ferro de passar'/></li>
   <li><p>lavadoras de alta pressão</p><img src='src\assets\lavadoura-removebg-preview.png'alt='Imagem de uma lavadora de alta pressão'/></li>

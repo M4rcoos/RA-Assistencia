@@ -15,7 +15,15 @@
   }
   
   .swiper-slide img {
-    width: 90%;
+    height: 50vh;
     border-radius: 2.75rem;
-    height:34.375rem;
+    object-fit: fill;
+    width: 1260px;
+  }
+  .container{
+    max-height: 50vh;
+    width: 100%;
+    background-color: aqua;
+    
+    
   }

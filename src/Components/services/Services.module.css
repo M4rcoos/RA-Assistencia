@@ -1,8 +1,12 @@
 .content{
+    display: flex;
+    justify-content: center;
     width: 90%;
     margin: 0 auto;
     border-bottom: 0.125rem solid var(--gray-300);
     
+    
+
 }
 
 ul{
@@ -40,10 +44,26 @@ ul li{
     justify-content: space-between;
     align-items: flex-start;
     width: 6.875rem;
-    height: 9rem;    
+    height: 10rem;    
     text-align: center;
 
 }
+
+.ulServices{
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+    text-decoration: none;
+    list-style: none;
+    color: var(--gray-600);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap ;
+
+}
+
 ul li img:hover{
     transform: translateY(-0.5rem);
     transition: 0.25s ease-out;

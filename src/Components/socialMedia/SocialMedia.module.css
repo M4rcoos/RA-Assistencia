@@ -1,0 +1,18 @@
+.content{
+    margin-top: 1rem;
+    
+    
+}
+.iconInstagram{
+    margin-left: 0.75rem;
+
+}
+.liSocialMIdia{
+    height: 16px;
+    width: 16px;
+
+}
+.ulSocialMidia{
+    gap:1rem;
+    align-items: flex-start;
+}
