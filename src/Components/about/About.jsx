@@ -5,7 +5,7 @@ export function About() {
     <div className={styleAbout.container}>
         <h1 className={styleAbout.h1} id='about'>Sobre</h1>
       <div className={styleAbout.containerText}>
-        <p>
+        <p className={styleAbout.p}>
           {" "}
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
           minus asperiores, consequuntur neque ullam beatae ea officiis pariatur

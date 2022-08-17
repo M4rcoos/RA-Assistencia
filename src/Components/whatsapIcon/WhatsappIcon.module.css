@@ -1,0 +1,15 @@
+.content{
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100000;
+
+}

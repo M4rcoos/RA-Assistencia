@@ -22,7 +22,7 @@ export function FooterContact() {
         </p>
         <p  className={styleFooter.p}>
           <BsWhatsapp className={styleFooter.Icon}/><a className={styleFooter.plink} 
-          href="https://wa.me/5511943409897?text=Ol%C3%A1%20Gostaria%20de%20consultar%20um%20serviço">94340-9897</a>
+          href="https://wa.me/5511943409897?text=Ol%C3%A1%20Gostaria%20de%20consultar%20um%20serviço" target='blank'>94340-9897</a>
         </p>
         <p className={styleFooter.p}>
           <BiMap className={styleFooter.Icon}/> Rua: Gilberto de carvalho, 180, <br /> 07792-720 Cajamar, SP
