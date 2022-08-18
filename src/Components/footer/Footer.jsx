@@ -1,5 +1,5 @@
 import styleFooter from './Footer.module.css'
-import logoAssitencia from '../../assets/Logo.svg'
+import logoAssitencia from '../../../public/assets/Logo.svg'
 import { FooterContact } from '../footerContact/FooterContact'
 import { Map } from '../map/Map'
 import { NavegationFooter } from '../navegationFooter/NavegationFooter'

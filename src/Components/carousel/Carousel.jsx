@@ -1,6 +1,8 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import style from'./Carousel.css'
+import styles from'./Carousel.module.css'
+
+// import Imagekarcher from '../../../public/assets/carousel-Karcher.jpg'
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
 import 'swiper/css'
@@ -19,25 +21,25 @@ export function Carousel() {
     // scrollbar={{ draggable: true }}
     onSwiper={(swiper) => console.log(swiper)}
     onSlideChange={() => console.log('slide change')}
+    className={styles.swiperContainer}
 >
-        <SwiperSlide className="swiper-slide" >
-          <div className={style.container}>
-            <img  className="container" src='src\assets\carousel-Karcher.webp' alt =""/>
-          </div>
+        <SwiperSlide className={styles.SwiperSlide}>
+        <div  className={styles.swiperSlideImg1}></div>
+          
         
        </SwiperSlide>
      <SwiperSlide className="swiper-slide" >
-     <div className={style.container}>
-     <img src='https://assisservice.com.br/wp-content/uploads/2020/10/maquina5.jpg' alt =""/>
-     </div>
+     
+     <div  className={styles.swiperSlideImg2}></div>
+     
 
         
        </SwiperSlide> 
        <SwiperSlide className="swiper-slide" >
-       <div className={style.container}>
-       <img src='https://lh3.googleusercontent.com/p/AF1QipNatZ1kp3pTFFFzxszYUkrfJAJONXV70KmKn2ey=w1080-h608-p-no-v0' alt =""/>
-       </div>
-
+    
+      
+      
+       <div  className={styles.swiperSlideImg3}></div>
         
         
        </SwiperSlide>

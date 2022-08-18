@@ -7,7 +7,7 @@ export function About() {
       <div className={styleAbout.containerText}>
         <p className={styleAbout.p}>
           {" "}
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          Meu nome é valcir e eu fundei a Polvitec em 1900 e bolinhas
           minus asperiores, consequuntur neque ullam beatae ea officiis pariatur
           totam suscipit. Autem, delectus ratione placeat quibusdam fuga magnam
           voluptas suscipit. Ut.<br/> Lorem ipsum dolor sit amet consectetur
