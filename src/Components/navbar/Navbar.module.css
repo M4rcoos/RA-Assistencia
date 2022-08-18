@@ -20,3 +20,21 @@
     display:flex;
     gap:2rem;
 }
+.buttonMobile{
+    display:none;
+
+}
+
+@media(max-width:914px){
+   .btnMenu {
+        display: block;
+    }
+    .nav{
+        display: none;
+
+    }
+    .nav.active.btnMenu{
+        display: flex;
+    }
+  
+}
