@@ -8,9 +8,12 @@ import logoAssitencia from '../../../public/assets/Logo.svg'
 
 export function Header() {
   return (
+    <>
     <header className={styles.header}>
       <img src={logoAssitencia}alt='Logotipo da assistencia'/>
-      <Navbar/>
+      <Navbar className={styles.navbar}/>
     </header>
+    </>
+    
   );
 }

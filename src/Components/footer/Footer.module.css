@@ -30,3 +30,12 @@
 }
 
 
+@media(max-width:600px){
+   
+    .img{
+        margin-left:0;
+        max-height: 5rem;
+
+    }
+      
+}
