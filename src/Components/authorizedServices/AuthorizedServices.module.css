@@ -32,3 +32,24 @@ ul .h2{
     align-items: center;
     justify-content: center;
 }
+
+@media (prefers-color-scheme: dark) {
+    .imgKarcher{
+        display: none;
+    }
+    .imgKarcherWhite {
+      display: block;
+    }
+  }
+    
+  @media (prefers-color-scheme: light) {
+    .imgKarcherWhite{
+        display: none;
+    }
+    .imgKarcher{
+      display: block;
+    }
+  }
+
+ 
+ 

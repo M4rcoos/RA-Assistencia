@@ -28,3 +28,19 @@
 .title{
     margin-bottom: 1.5rem;
 }
+@media(max-width:600px) {
+   
+    .divContent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Content{
+        align-items: center;
+    }
+    .h3{
+        margin-top: 2rem;
+    }
+}

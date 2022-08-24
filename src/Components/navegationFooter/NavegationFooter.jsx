@@ -2,7 +2,7 @@ import styleNavegation from './NavegationFooter.module.css'
 
 export function NavegationFooter() {
   return (
-    <div >
+    <div className={styleNavegation.divContainer} >
         <div className={styleNavegation.title}>
          <h3 className={styleNavegation.h3}>Navegação</h3>
         </div>

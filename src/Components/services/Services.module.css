@@ -17,6 +17,7 @@ ul{
     list-style: none;
     color: var(--gray-600);
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
 
 }
 .h2{

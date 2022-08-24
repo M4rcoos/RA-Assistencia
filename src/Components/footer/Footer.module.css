@@ -28,14 +28,44 @@
     padding: 0.5rem;
 
 }
+@media(max-width:1300px){
+   
+    .img{
+        height: 3rem;
+    }
+    .containerMarca{
+        width: 100%;
+        border-bottom: 2px solid var(--gray-300);
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+   .container{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 
+      
+}
 
 @media(max-width:600px){
    
     .img{
-        margin-left:0;
-        max-height: 5rem;
-
+        height: 3rem;
     }
+    .containerMarca{
+        width: 100%;
+        border-bottom: 2px solid var(--gray-300);
+        display: flex;
+        justify-content: space-between;
+    }
+   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
       
 }

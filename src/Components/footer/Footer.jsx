@@ -11,13 +11,13 @@ export  function Footer() {
     <>
     <div className={styleFooter.container}>
         <div className={styleFooter.content}>
-          <div>
+          <div className={styleFooter.containerMarca} >
           <img  className={styleFooter.img} src={logoAssitencia}alt='Logotipo da assistencia'/>
           <SocialMedia/>
           </div>
-       
-        <NavegationFooter/>
+       <NavegationFooter/>
         <FooterContact/>
+      
         <Map/>
         </div>
         

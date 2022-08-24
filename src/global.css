@@ -10,7 +10,8 @@
     --green-500: #00875f;
 
     --blue-primary:#033a4f;
-    --black--900:#101010
+    --black--900:#101010;
+      color-scheme:dark light;
 }
 *{
     margin: 0;

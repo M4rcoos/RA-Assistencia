@@ -52,7 +52,7 @@
     }
 } 
 
-@media (max-width:600px){
+@media (max-width:815px){
     .buttonMobile{
         display: block;
        }
@@ -70,7 +70,7 @@
     overflow-y: hidden;
     }
     .nav.active .button{
-        height: calc(100vh - 72px);
+        height: calc(70vh - 72px);
     visibility: visible;
     overflow-y: auto;
     }

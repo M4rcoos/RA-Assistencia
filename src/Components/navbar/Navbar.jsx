@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styles from"./Navbar.module.css"
 
 export function Navbar() {
-const [toggle,setToggle] =useState(true)
+const [toggle,setToggle] =useState(false)
 
 const toggleHumbuger =()=>{
   setToggle(!toggle)
