@@ -8,7 +8,7 @@
  
 }
 
-.swiper-slide {
+.swiperSlide {
   background-position: center;
   margin-top:2rem;
   display:flex;
@@ -17,6 +17,9 @@
  margin-top: 0;
 
 
+}
+.swiperSlideMobile{
+  display: none;
 }
 
 
@@ -32,7 +35,7 @@
   margin-top: 0;
   width: 100%;  
   height:500px;
-  background-image: url('https://sevensi.com.br/wp-content/uploads/2019/11/fullscreen.jpg');
+  background-image: url('../../../public/assets/carousel-jactor-web.jpg');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -44,7 +47,7 @@
   margin-top: 0;
   width: 100%;  
   height:500px;
-  background-image: url('https://sevensi.com.br/wp-content/uploads/2019/11/fullscreen.jpg');
+  background-image: url('../../../public/assets/carousel-Karcher-desk.webp');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -55,10 +58,83 @@
   margin-top: 0;
   width: 100%;  
   height:500px;
-  background-image: url('https://sevensi.com.br/wp-content/uploads/2019/11/fullscreen.jpg');
+  background-image: url('../../../public/assets/carousel-mangueira-web.png');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   background-size:  auto 500px;
   margin-bottom: 1rem;
+}
+.swiperSlideImg4{
+  margin-top: 0;
+  width: 100%;  
+  height:500px;
+
+  background-image: url('../../../public/assets/carouseu-web-tramontina.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size:  auto 500px;
+  margin-bottom: 1rem;
+}
+.swiperSlideImg5{
+  display: none;
+  margin-top: 0;
+    width: 100%;  
+    height:500px;
+  
+    background-image: url('https://s1.kaercher-media.com/media/image/selection/22472/m3/o-que-voce-precisa-saber-para-escolher-a-sua-kaercher.webp');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size:  auto 500px;
+    margin-bottom: 1rem;
+
+}
+.swiperSlideImg6{
+  display: none;
+  margin-top: 0;
+    width: 100%;  
+    height:500px;
+  
+    background-image: url('https://cdn-cklcd.nitrocdn.com/fxvNWpogShxcNqaJntADBNXUreoHUOcz/assets/static/optimized/rev-edb26ab/wp-content/uploads/2021/04/Assistencia-Tecnica-Maquina-de-Lavar-Roupa-curitiba.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size:  auto 500px;
+    margin-bottom: 1rem;
+
+}
+
+@media (max-width:600px){
+.swiperSlide{
+  display: none;
+}
+.swiper{
+  display: none;
+}
+  .swiperSlideImg{
+    display: none;
+  }
+  .swiperSlideMobile{
+    display: block;
+  }
+  
+  .swiperSlideImg5{
+    display: block;
+  
+  }
+  .swiperSlideImg4{
+    display :none
+  }
+  .swiperSlideImg3{
+    display :none
+  }
+  .swiperSlideImg6{
+    display: block;
+  
+  }
+
+
+
 }
