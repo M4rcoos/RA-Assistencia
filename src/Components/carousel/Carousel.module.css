@@ -105,7 +105,34 @@
     margin-bottom: 1rem;
 
 }
+.swiperSlideImg7{
+  display: none;
+  margin-top: 0;
+    width: 100%;  
+    height:500px;
+  
+    background-image: url('../../../public/assets/carousel-mangueira-mobile.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size:  auto 500px;
+    margin-bottom: 1rem;
 
+}
+.swiperSlideImg8{
+
+  margin-top: 0;
+    width: 100%;  
+    height:500px;
+  
+    background-image: url('https://media3.bosch-home.com/Images/1200x/MCIM03403861_Washing_Machine_Staging_Banner_3200x1240px.jpeg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size:  auto 500px;
+    margin-bottom: 1rem;
+
+}
 @media (max-width:600px){
 .swiperSlide{
   display: none;
@@ -134,7 +161,10 @@
     display: block;
   
   }
-
+  .swiperSlideImg7{
+    display: block;
+  
+  }
 
 
 }

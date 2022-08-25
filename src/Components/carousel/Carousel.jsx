@@ -57,6 +57,7 @@ export function Carousel() {
      
     </SwiperSlide>
 
+
     
     <SwiperSlide className={styles.swiperSlideMobile} >
     <div  className={styles.swiperSlideImg5}></div>
@@ -65,6 +66,21 @@ export function Carousel() {
     </SwiperSlide>
     <SwiperSlide className={styles.swiperSlideMobile} >
     <div  className={styles.swiperSlideImg6}></div>
+     
+     
+    </SwiperSlide>
+    <SwiperSlide className={styles.swiperSlideMobile} >
+    <div  className={styles.swiperSlideImg7}></div>
+     
+     
+    </SwiperSlide>
+
+    
+    <SwiperSlide  className={styles.swiperSlide}>
+    
+      
+      
+    <div  className={styles.swiperSlideImg8}></div>
      
      
     </SwiperSlide>
