@@ -18,6 +18,10 @@
 
 
 }
+.swiperSlide9 {
+ display:none
+
+}
 .swiperSlideMobile{
   display: none;
 }
@@ -47,7 +51,7 @@
   margin-top: 0;
   width: 100%;  
   height:500px;
-  background-image: url('../../../public/assets/carousel-Karcher-desk.webp');
+  background-image: url('https://karchercenteraltex.fbitsstatic.net/img/b/0b4d018e-ada4-4454-a0f6-6b4fd5bab497.jpg');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -91,6 +95,20 @@
     margin-bottom: 1rem;
 
 }
+.swiperSlideImg9{
+  display: none;
+   margin-top: 0;
+     width: 100%;  
+     height:500px;
+   
+     background-image: url('../../../public/assets/carousel-mangueiras-desk2.png');
+     background-repeat: no-repeat;
+     background-position-x: center;
+     background-position-y: center;
+     background-size:  auto 500px;
+     margin-bottom: 1rem;
+ 
+ }
 .swiperSlideImg6{
   display: none;
   margin-top: 0;
@@ -133,6 +151,22 @@
     margin-bottom: 1rem;
 
 }
+
+@media (max-width:1075px){
+  .swiperSlide9 {
+    display:block
+   
+   }
+  .swiperSlide3 {
+    display: none;
+  }
+  .swiperSlideImg3{
+    display:none
+  }
+  .swiperSlideImg9{
+    display:block
+  }
+  }
 @media (max-width:600px){
 .swiperSlide{
   display: none;
@@ -140,9 +174,14 @@
 .swiper{
   display: none;
 }
-  .swiperSlideImg{
-    display: none;
-  }
+.swiperSlideImg9{
+  display:none
+}
+.swiperSlide9 {
+  display:none
+ 
+ }
+
   .swiperSlideMobile{
     display: block;
   }
@@ -168,3 +207,4 @@
 
 
 }
+

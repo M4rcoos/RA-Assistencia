@@ -27,63 +27,49 @@ export function Carousel() {
     onSlideChange={() => console.log('slide change')}
     className={styles.swiperContainer}
 >
-        <SwiperSlide className={styles.SwiperSlide}>
-        <div  className={styles.swiperSlideImg1}></div>
-          
-        
-       </SwiperSlide>
+      <SwiperSlide className={styles.SwiperSlide}>
+      <div  className={styles.swiperSlideImg1}></div>
+      </SwiperSlide>
+
+
      <SwiperSlide className={styles.swiperSlide} >
-     
      <div  className={styles.swiperSlideImg2}></div>
-     
+     </SwiperSlide> 
 
-        
-       </SwiperSlide> 
-       <SwiperSlide className={styles.swiperSlide} >
-    
-      
-      
-       <div  className={styles.swiperSlideImg3}></div>
-        
-        
-       </SwiperSlide>
+
+      <SwiperSlide className={styles.swiperSlide3} >
+      <div  className={styles.swiperSlideImg3}></div>
+      </SwiperSlide>
+
        
-       <SwiperSlide  className={styles.swiperSlide}>
-    
-      
-      
-    <div  className={styles.swiperSlideImg4}></div>
-     
-     
-    </SwiperSlide>
+      <SwiperSlide  className={styles.swiperSlide}>
+      <div  className={styles.swiperSlideImg4}></div>
+      </SwiperSlide>
+ 
+ 
+      <SwiperSlide className={styles.swiperSlideMobile} >
+      <div  className={styles.swiperSlideImg5}></div>
+      </SwiperSlide>
 
 
-    
-    <SwiperSlide className={styles.swiperSlideMobile} >
-    <div  className={styles.swiperSlideImg5}></div>
-     
-     
-    </SwiperSlide>
-    <SwiperSlide className={styles.swiperSlideMobile} >
-    <div  className={styles.swiperSlideImg6}></div>
-     
-     
-    </SwiperSlide>
-    <SwiperSlide className={styles.swiperSlideMobile} >
-    <div  className={styles.swiperSlideImg7}></div>
-     
-     
-    </SwiperSlide>
+      <SwiperSlide className={styles.swiperSlideMobile} >
+      <div  className={styles.swiperSlideImg6}></div>
+      </SwiperSlide>
 
-    
-    <SwiperSlide  className={styles.swiperSlide}>
-    
+
+      <SwiperSlide className={styles.swiperSlideMobile} >
+      <div  className={styles.swiperSlideImg7}></div>
+      </SwiperSlide>
+
       
-      
-    <div  className={styles.swiperSlideImg8}></div>
-     
-     
-    </SwiperSlide>
+      <SwiperSlide  className={styles.swiperSlide}>
+      <div  className={styles.swiperSlideImg8}></div>
+      </SwiperSlide>
+
+
+      <SwiperSlide  className={styles.swiperSlide9}>
+      <div  className={styles.swiperSlideImg9}></div>
+      </SwiperSlide>
 </Swiper>
 
   )
