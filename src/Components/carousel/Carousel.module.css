@@ -51,7 +51,7 @@
   margin-top: 0;
   width: 100%;  
   height:500px;
-  background-image: url('https://karchercenteraltex.fbitsstatic.net/img/b/0b4d018e-ada4-4454-a0f6-6b4fd5bab497.jpg');
+  background-image: url('../../../public/assets/carousel-karcher-desk.jpg');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -87,7 +87,7 @@
     width: 100%;  
     height:500px;
   
-    background-image: url('https://s1.kaercher-media.com/media/image/selection/22472/m3/o-que-voce-precisa-saber-para-escolher-a-sua-kaercher.webp');
+    background-image: url('../../../public/assets/carousel-lavadora-de-piso-karcher-mobile.webp');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -115,7 +115,7 @@
     width: 100%;  
     height:500px;
   
-    background-image: url('https://cdn-cklcd.nitrocdn.com/fxvNWpogShxcNqaJntADBNXUreoHUOcz/assets/static/optimized/rev-edb26ab/wp-content/uploads/2021/04/Assistencia-Tecnica-Maquina-de-Lavar-Roupa-curitiba.jpg');
+    background-image: url('../../../public/assets/carousel-manutençao-maquina.webp');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -143,7 +143,7 @@
     width: 100%;  
     height:500px;
   
-    background-image: url('https://media3.bosch-home.com/Images/1200x/MCIM03403861_Washing_Machine_Staging_Banner_3200x1240px.jpeg');
+    background-image: url('../../../public/assets/carouse-maquina-de-lavar.jpeg');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
