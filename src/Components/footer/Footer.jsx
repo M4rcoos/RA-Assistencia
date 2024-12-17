@@ -24,7 +24,7 @@ export function Footer() {
       </div>
       <div className={styleFooter.contentCopywrite}>
         <p className={styleFooter.p}> <BiCopyright />2022 R.A Assitência técnica</p>
-        <p className={styleFooter.p}> <BiCopyright />Feito por <a href="https://www.instagram.com/marcoos.v/">Marcos Vinicius</a></p>
+        <p className={styleFooter.p}> <BiCopyright />Feito por <a href="https://www.instagram.com/marcoos.v/"> Marcos Vinicius</a></p>
       </div>
     </>
   )
