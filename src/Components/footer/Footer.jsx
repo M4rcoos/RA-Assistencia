@@ -6,26 +6,26 @@ import { NavegationFooter } from '../navegationFooter/NavegationFooter'
 import { BiCopyright } from "react-icons/bi"
 import { SocialMedia } from '../socialMedia/SocialMedia'
 
-export  function Footer() {
+export function Footer() {
   return (
     <>
-    <div className={styleFooter.container}>
+      <div className={styleFooter.container}>
         <div className={styleFooter.content}>
           <div className={styleFooter.containerMarca} >
-          <img  className={styleFooter.img} src={logoAssitencia}alt='Logotipo da assistencia'/>
-          <SocialMedia/>
+            <img className={styleFooter.img} src={logoAssitencia} alt='Logotipo da assistencia' />
+            <SocialMedia />
           </div>
-       <NavegationFooter/>
-        <FooterContact/>
-      
-        <Map/>
-        </div>
-        
-    </div>
-        <div className={styleFooter.contentCopywrite}>
-        <p className={styleFooter.p}> <BiCopyright/>2022 R.A Assitência técnica</p>
+          <NavegationFooter />
+          <FooterContact />
 
+          <Map />
         </div>
+
+      </div>
+      <div className={styleFooter.contentCopywrite}>
+        <p className={styleFooter.p}> <BiCopyright />2022 R.A Assitência técnica</p>
+        <p className={styleFooter.p}> <BiCopyright />Feito por <a href="https://www.instagram.com/marcoos.v/">Marcos Vinicius</a></p>
+      </div>
     </>
   )
 }
